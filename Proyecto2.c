@@ -1,6 +1,4 @@
-/* Pertenece a Jose Moreno 8-971-845
-               Alex Guizado 8-989-1571
-*/
+/* Pertenece a Jose Moreno 8-971-845*/
 #include<stdio.h>
 #include<conio.h>
 #include<string.h>
@@ -208,7 +206,7 @@ void main(){
         case 3:
         	system("cls");
 			printf("\n\t ******* CONVERSI%cN DE INFIJO - POSFIJO *******\n\n", 224);
-			printf("\t - Cargar operadores en la PILA\n\t - Mostrar procedimiento de la conversi%cn\n\t - Resultado de la conversi%cn\n\t - Resultado de la operación\n\n",162,162,162);
+			printf("\t - Cargar operadores en la PILA\n\t - Mostrar procedimiento de la conversi%cn\n\t - Resultado de la conversi%cn\n\t - Resultado de la operaciÃ³n\n\n",162,162,162);
 			printf("\t ***********************************************\n");
 			infijo();
 			printf("\nPress ...[Enter] para Regresar al menu principal");
@@ -380,7 +378,7 @@ void agregar(char elemento){
 char eliminar(){
  return s_cola.items[++s_cola.front_c];
  }
-//Cola Vacía
+//Cola VacÃ­a
 int c_vacia(){
  if (s_cola.front_c==s_cola.final_c)
  return 1;
